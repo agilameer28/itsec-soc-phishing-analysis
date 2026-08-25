@@ -1,0 +1,15 @@
+Return-Path: <admin@evil-attacker-infra.net>
+Delivered-To: victim@yourcompany.com
+Received: from mail.evil-attacker-infra.net (198.51.100.22)
+    by mx.yourcompany.com with SMTP id xyz123
+    for <victim@yourcompany.com>; Tue, 25 Aug 2026 09:00:00 -0700 (PDT)
+From: "Vendor Billing" <billing@trustedvendor.com>
+To: victim@yourcompany.com
+Subject: URGENT: Overdue Invoice - Final Notice
+Date: Tue, 25 Aug 2026 08:55:00 -0700
+Reply-To: <admin@evil-attacker-infra.net>
+Authentication-Results: mx.yourcompany.com;
+    spf=fail (sender IP is 198.51.100.22) smtp.mailfrom=evil-attacker-infra.net;
+    dkim=none;
+    dmarc=fail header.from=trustedvendor.com;
+X-Attachment: invoice_9842_overdue.zip
